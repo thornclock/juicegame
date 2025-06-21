@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://df373iqe8lu4x"]
+
+[ext_resource type="Texture2D" uid="uid://cc5qdohbnc0kd" path="res://texture/logo.png" id="1_smaby"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="SCALETEST" type="Sprite2D" parent="."]
+position = Vector2(604, 1158)
+scale = Vector2(0.0952621, 0.0952621)
+texture = ExtResource("1_smaby")
