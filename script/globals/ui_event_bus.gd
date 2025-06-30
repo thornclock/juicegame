@@ -1,2 +1,5 @@
 class_name UIEventBus
 extends Node
+
+signal sgui_fade_to_black
+signal sgui_fade_to_screen

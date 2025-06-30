@@ -18,7 +18,9 @@ config/icon="uid://cc5qdohbnc0kd"
 
 [autoload]
 
+DataManager="*res://script/globals/data_manager.gd"
 GlobalEventBus="*res://script/globals/global_event_bus.gd"
+RootSceneTransitioner="*res://script/globals/root_scene_transitioner.gd"
 GlobalUiEventBus="*res://script/globals/ui_event_bus.gd"
 
 [display]

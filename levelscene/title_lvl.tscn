@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://cc5qdohbnc0kd" path="res://texture/logo.png" id="1_smaby"]
 
-[node name="Node2D" type="Node2D"]
+[node name="TitleRoot" type="Node2D"]
 
 [node name="SCALETEST" type="Sprite2D" parent="."]
 position = Vector2(604, 1158)
