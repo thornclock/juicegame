@@ -1,10 +1,16 @@
-[gd_scene load_steps=2 format=3 uid="uid://df373iqe8lu4x"]
+[gd_scene load_steps=3 format=3 uid="uid://df373iqe8lu4x"]
 
+[ext_resource type="PackedScene" uid="uid://bvj666rd25vli" path="res://ui/menus/title_control.tscn" id="1_meb8k"]
 [ext_resource type="Texture2D" uid="uid://cc5qdohbnc0kd" path="res://texture/logo.png" id="1_smaby"]
 
 [node name="TitleRoot" type="Node2D"]
 
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="TitleControl" parent="CanvasLayer" instance=ExtResource("1_meb8k")]
+
 [node name="SCALETEST" type="Sprite2D" parent="."]
+visible = false
 position = Vector2(604, 1158)
 scale = Vector2(0.0952621, 0.0952621)
 texture = ExtResource("1_smaby")

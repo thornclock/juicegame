@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://bdkg3bubliwb8"]
+
+[ext_resource type="PackedScene" uid="uid://dqwaatvrtchi1" path="res://ui/menus/main_game_control.tscn" id="1_te4xm"]
+
+[node name="GameLevelRoot" type="Node2D"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="MainGameControl" parent="CanvasLayer" instance=ExtResource("1_te4xm")]

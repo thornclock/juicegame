@@ -1,0 +1,56 @@
+[gd_scene load_steps=3 format=3 uid="uid://v0ofh1q50b4b"]
+
+[ext_resource type="Script" uid="uid://7i8aap3sl3kw" path="res://script/ui/map_control.gd" id="1_okjvy"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6of3b"]
+bg_color = Color(0.403922, 0.403922, 0.403922, 0.882353)
+
+[node name="MapControl" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_okjvy")
+
+[node name="BGPanel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_6of3b")
+
+[node name="MapLabel" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -187.0
+offset_top = 81.0
+offset_right = 188.0
+offset_bottom = 138.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 41
+text = "UI_LABEL_MAP"
+horizontal_alignment = 1
+
+[node name="CloseMapButton" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -138.0
+offset_top = -87.0
+offset_right = 139.0
+offset_bottom = -40.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_font_sizes/font_size = 28
+text = "UI_MAP_BTN_CLOSE"
+
+[connection signal="pressed" from="CloseMapButton" to="." method="close_map_btn_pressed"]

@@ -31,6 +31,10 @@ window/size/resizable=false
 window/stretch/mode="viewport"
 window/handheld/orientation=1
 
+[internationalization]
+
+locale/translations=PackedStringArray("res://text/dialogue.en.translation", "res://text/dialogue.ko.translation", "res://text/ui.en.translation", "res://text/ui.ko.translation")
+
 [rendering]
 
 textures/canvas_textures/default_texture_filter=0

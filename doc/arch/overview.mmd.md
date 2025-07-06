@@ -22,8 +22,8 @@ sequenceDiagram
 		User->>TitleUI: Touch
 		TitleUI->>RootSceneTransitioner: TransitionToNewScene
 		RootSceneTransitioner->>FadeUI: Signal: FadeToScreen
-        activate FadeUI
-        RootSceneTransitioner->>FadeUI: Signal: FadeToScreen
-        deactivate FadeUI
+		activate FadeUI
+		RootSceneTransitioner->>FadeUI: Signal: FadeToScreen
+		deactivate FadeUI
 
 ```
