@@ -1,0 +1,28 @@
+{
+    "event_name":
+    {
+        "en":
+        [
+            ["Person A", "A's line of text. Can be multiple sentences."],
+            ["Person A", "More of A's text"],
+            ["Person B", "More text"]
+        ],
+        "ko":
+        [
+            ["Person A's name (in korean)", "A's translated text."],
+            ["Person A's name (in korean)", "More of A's translated text"],
+            ["Person B's name (in korean)", "New translated text by person B"]
+        ]
+    },
+
+    "example_intro_event":
+    {
+        "en":
+        [
+            ["Player", "I ran the report and it seems like there is"],
+            ["Player", "something wrong with the machine."],
+            ["Mike", "I'll take a look."],
+            ["Player", "Thanks."]
+        ]
+    }
+}
